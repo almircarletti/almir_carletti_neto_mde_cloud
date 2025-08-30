@@ -113,7 +113,6 @@ def main():
     <div class="info-card">
         <p>Este projeto visa criar um <strong>dashboard interativo</strong> para análise e visualização de indicadores educacionais do Espírito Santo, 
         permitindo aos gestores educacionais e pesquisadores explorar dados de forma intuitiva e eficiente.</p>
-        
         <p>O foco está na <strong>transformação de dados brutos</strong> em insights acionáveis através de visualizações 
         interativas e análises comparativas entre municípios, redes de ensino e séries escolares.</p>
     </div>
