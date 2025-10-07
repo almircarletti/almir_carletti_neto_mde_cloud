@@ -7,6 +7,8 @@ dos municípios capixabas, incluindo IDEB, matrículas e rendimento escolar.
 """
 
 import streamlit as st
+import pandas as pd
+import numpy as np
 
 # Configuração da página
 st.set_page_config(
@@ -83,7 +85,45 @@ st.markdown(
 )
 
 
+@st.cache_data
+def criar_dados_exemplo():
+    """Cria dados de exemplo para demonstração"""
+    np.random.seed(42)
+
+    # Dados simulados de indicadores educacionais de municípios do ES
+    municipios = [
+        "Vitória",
+        "Vila Velha",
+        "Serra",
+        "Cariacica",
+        "Viana",
+        "Guarapari",
+        "Linhares",
+        "Colatina",
+        "Cachoeiro",
+        "São Mateus",
+    ]
+
+    df = pd.DataFrame(
+        {
+            "Município": municipios,
+            "População": np.random.randint(20000, 400000, size=10),
+            "Total_Matriculas": np.random.randint(5000, 80000, size=10),
+            "IDEB_Anos_Iniciais": np.random.uniform(4.5, 6.5, size=10).round(1),
+            "IDEB_Anos_Finais": np.random.uniform(3.8, 5.8, size=10).round(1),
+            "Taxa_Aprovacao": np.random.uniform(85.0, 98.0, size=10).round(1),
+            "Taxa_Reprovacao": np.random.uniform(1.0, 10.0, size=10).round(1),
+            "Taxa_Abandono": np.random.uniform(0.5, 5.0, size=10).round(1),
+        }
+    )
+
+    return df
+
+
 def main():
+    # Carregar dados
+    df_educacao = criar_dados_exemplo()
+
     # Header principal
     st.markdown(
         '<h1 class="main-header">🎓 Indicadores Educacionais do Espírito Santo</h1>',
@@ -234,6 +274,99 @@ def main():
                 unsafe_allow_html=True,
             )
 
+    # ==================== ETAPA 3: DADOS E VISUALIZAÇÕES ====================
+    st.markdown("---")
+    st.markdown(
+        '<h2 class="section-header">📊 Análise de Dados - Indicadores Educacionais</h2>',
+        unsafe_allow_html=True,
+    )
+
+    # 1) TABELA DESCRITIVA (Obrigatório)
+    with st.container():
+        st.subheader("📋 Estatísticas Descritivas dos Dados")
+        st.markdown(
+            """
+            Análise estatística descritiva dos principais indicadores educacionais dos municípios do Espírito Santo.
+            A tabela abaixo apresenta medidas de tendência central e dispersão dos dados.
+            """
+        )
+
+        # Preparar dados numéricos para describe
+        df_numerico = df_educacao.select_dtypes(include=[np.number])
+
+        # Mostrar tabela descritiva
+        st.dataframe(
+            df_numerico.describe().round(2), use_container_width=True, height=300
+        )
+
+        # Interpretação dos dados
+        with st.expander("💡 Como interpretar esta tabela?"):
+            st.markdown(
+                """
+            - **count**: Número de observações (municípios)
+            - **mean**: Média dos valores
+            - **std**: Desvio padrão (dispersão dos dados)
+            - **min**: Valor mínimo
+            - **25%**: Primeiro quartil (25% dos dados estão abaixo deste valor)
+            - **50%**: Mediana (valor central)
+            - **75%**: Terceiro quartil (75% dos dados estão abaixo deste valor)
+            - **max**: Valor máximo
+            """
+            )
+
+    st.markdown("---")
+
+    # 2) GRÁFICO DE BARRAS (Obrigatório)
+    with st.container():
+        st.subheader("📊 Comparação de IDEB entre Municípios")
+        st.markdown(
+            """
+            Visualização comparativa do Índice de Desenvolvimento da Educação Básica (IDEB) 
+            nos anos iniciais do ensino fundamental para os principais municípios do ES.
+            """
+        )
+
+        # Preparar dados para o gráfico
+        df_ideb = df_educacao[["Município", "IDEB_Anos_Iniciais"]].sort_values(
+            "IDEB_Anos_Iniciais", ascending=False
+        )
+
+        # Criar gráfico de barras usando Streamlit
+        st.bar_chart(
+            df_ideb.set_index("Município")["IDEB_Anos_Iniciais"],
+            use_container_width=True,
+            height=400,
+        )
+
+        # Insights
+        melhor_ideb = df_ideb.iloc[0]
+        pior_ideb = df_ideb.iloc[-1]
+        media_ideb = df_educacao["IDEB_Anos_Iniciais"].mean()
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric(
+                label="🥇 Melhor IDEB",
+                value=f"{melhor_ideb['IDEB_Anos_Iniciais']:.1f}",
+                delta=melhor_ideb["Município"],
+            )
+        with col2:
+            st.metric(label="📊 Média Geral", value=f"{media_ideb:.1f}", delta="ES")
+        with col3:
+            st.metric(
+                label="📉 Menor IDEB",
+                value=f"{pior_ideb['IDEB_Anos_Iniciais']:.1f}",
+                delta=pior_ideb["Município"],
+            )
+
+        with st.expander("📈 Visualizar dados brutos"):
+            st.dataframe(
+                df_educacao[["Município", "IDEB_Anos_Iniciais", "IDEB_Anos_Finais"]],
+                use_container_width=True,
+            )
+
+    st.markdown("---")
+
     # Bases de dados
     st.markdown(
         '<h2 class="section-header">🗄️ Bases de Dados Planejadas</h2>',
@@ -299,7 +432,7 @@ def main():
     <div class="footer">
         <p><strong>Desenvolvido por:</strong> Almir Carletti Neto | <strong>IFES</strong> | <strong>2025</strong></p>
         <p>Dashboard Educacional do Espírito Santo - Projeto Acadêmico</p>
-        <p><em>Versão de baixa estética e usabilidade - Estrutura das seções implementada com Layouts e Containers do Streamlit</em></p>
+        <p><em>Etapa 3: Versão com dados e visualizações - MVP com tabela descritiva e gráfico de barras</em></p>
     </div>
     """,
         unsafe_allow_html=True,
