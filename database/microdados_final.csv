@@ -1,0 +1,625 @@
+CO_MUNICIPIO;NO_MUNICIPIO;SG_UF;REDE;ANO_ESCOLAR;QT_MATRICULAS
+3200102;Afonso Cláudio;ES;Estadual;6;191
+3200102;Afonso Cláudio;ES;Municipal;6;195
+3200136;Águia Branca;ES;Estadual;6;59
+3200136;Águia Branca;ES;Municipal;6;85
+3200169;Água Doce do Norte;ES;Estadual;6;112
+3200169;Água Doce do Norte;ES;Municipal;6;78
+3200201;Alegre;ES;Estadual;6;332
+3200201;Alegre;ES;Municipal;6;0
+3200300;Alfredo Chaves;ES;Estadual;6;18
+3200300;Alfredo Chaves;ES;Municipal;6;135
+3200359;Alto Rio Novo;ES;Estadual;6;78
+3200359;Alto Rio Novo;ES;Municipal;6;19
+3200409;Anchieta;ES;Estadual;6;0
+3200409;Anchieta;ES;Municipal;6;461
+3200508;Apiacá;ES;Estadual;6;0
+3200508;Apiacá;ES;Municipal;6;90
+3200607;Aracruz;ES;Estadual;6;361
+3200607;Aracruz;ES;Municipal;6;1028
+3200706;Atílio Vivácqua;ES;Estadual;6;0
+3200706;Atílio Vivácqua;ES;Municipal;6;156
+3200805;Baixo Guandu;ES;Estadual;6;111
+3200805;Baixo Guandu;ES;Municipal;6;254
+3200904;Barra de São Francisco;ES;Estadual;6;219
+3200904;Barra de São Francisco;ES;Municipal;6;296
+3201001;Boa Esperança;ES;Estadual;6;122
+3201001;Boa Esperança;ES;Municipal;6;102
+3201100;Bom Jesus do Norte;ES;Estadual;6;24
+3201100;Bom Jesus do Norte;ES;Municipal;6;93
+3201159;Brejetuba;ES;Estadual;6;188
+3201159;Brejetuba;ES;Municipal;6;28
+3201209;Cachoeiro de Itapemirim;ES;Estadual;6;1333
+3201209;Cachoeiro de Itapemirim;ES;Municipal;6;955
+3201308;Cariacica;ES;Estadual;6;1915
+3201308;Cariacica;ES;Municipal;6;3428
+3201407;Castelo;ES;Estadual;6;24
+3201407;Castelo;ES;Municipal;6;437
+3201506;Colatina;ES;Estadual;6;109
+3201506;Colatina;ES;Municipal;6;1234
+3201605;Conceição da Barra;ES;Estadual;6;118
+3201605;Conceição da Barra;ES;Municipal;6;423
+3201704;Conceição do Castelo;ES;Estadual;6;172
+3201704;Conceição do Castelo;ES;Municipal;6;0
+3201803;Divino de São Lourenço;ES;Estadual;6;43
+3201803;Divino de São Lourenço;ES;Municipal;6;17
+3201902;Domingos Martins;ES;Estadual;6;103
+3201902;Domingos Martins;ES;Municipal;6;381
+3202009;Dores do Rio Preto;ES;Estadual;6;110
+3202009;Dores do Rio Preto;ES;Municipal;6;0
+3202108;Ecoporanga;ES;Estadual;6;225
+3202108;Ecoporanga;ES;Municipal;6;7
+3202207;Fundão;ES;Estadual;6;69
+3202207;Fundão;ES;Municipal;6;228
+3202256;Governador Lindenberg;ES;Estadual;6;150
+3202256;Governador Lindenberg;ES;Municipal;6;0
+3202306;Guaçuí;ES;Estadual;6;64
+3202306;Guaçuí;ES;Municipal;6;342
+3202405;Guarapari;ES;Estadual;6;97
+3202405;Guarapari;ES;Municipal;6;1799
+3202454;Ibatiba;ES;Estadual;6;0
+3202454;Ibatiba;ES;Municipal;6;433
+3202504;Ibiraçu;ES;Estadual;6;160
+3202504;Ibiraçu;ES;Municipal;6;10
+3202553;Ibitirama;ES;Estadual;6;128
+3202553;Ibitirama;ES;Municipal;6;50
+3202603;Iconha;ES;Estadual;6;113
+3202603;Iconha;ES;Municipal;6;46
+3202652;Irupi;ES;Estadual;6;116
+3202652;Irupi;ES;Municipal;6;58
+3202702;Itaguaçu;ES;Estadual;6;134
+3202702;Itaguaçu;ES;Municipal;6;31
+3202801;Itapemirim;ES;Estadual;6;131
+3202801;Itapemirim;ES;Municipal;6;590
+3202900;Itarana;ES;Estadual;6;114
+3202900;Itarana;ES;Municipal;6;0
+3203007;Iúna;ES;Estadual;6;286
+3203007;Iúna;ES;Municipal;6;128
+3203056;Jaguaré;ES;Estadual;6;178
+3203056;Jaguaré;ES;Municipal;6;343
+3203106;Jerônimo Monteiro;ES;Estadual;6;92
+3203106;Jerônimo Monteiro;ES;Municipal;6;64
+3203130;João Neiva;ES;Estadual;6;0
+3203130;João Neiva;ES;Municipal;6;172
+3203163;Laranja da Terra;ES;Estadual;6;98
+3203163;Laranja da Terra;ES;Municipal;6;69
+3203205;Linhares;ES;Estadual;6;428
+3203205;Linhares;ES;Municipal;6;2075
+3203304;Mantenópolis;ES;Estadual;6;134
+3203304;Mantenópolis;ES;Municipal;6;53
+3203320;Marataízes;ES;Estadual;6;33
+3203320;Marataízes;ES;Municipal;6;641
+3203346;Marechal Floriano;ES;Estadual;6;157
+3203346;Marechal Floriano;ES;Municipal;6;78
+3203353;Marilândia;ES;Estadual;6;84
+3203353;Marilândia;ES;Municipal;6;39
+3203403;Mimoso do Sul;ES;Estadual;6;220
+3203403;Mimoso do Sul;ES;Municipal;6;89
+3203502;Montanha;ES;Estadual;6;178
+3203502;Montanha;ES;Municipal;6;134
+3203601;Mucurici;ES;Estadual;6;40
+3203601;Mucurici;ES;Municipal;6;13
+3203700;Muniz Freire;ES;Estadual;6;32
+3203700;Muniz Freire;ES;Municipal;6;191
+3203809;Muqui;ES;Estadual;6;147
+3203809;Muqui;ES;Municipal;6;64
+3203908;Nova Venécia;ES;Estadual;6;49
+3203908;Nova Venécia;ES;Municipal;6;596
+3204005;Pancas;ES;Estadual;6;93
+3204005;Pancas;ES;Municipal;6;110
+3204054;Pedro Canário;ES;Estadual;6;260
+3204054;Pedro Canário;ES;Municipal;6;66
+3204104;Pinheiros;ES;Estadual;6;48
+3204104;Pinheiros;ES;Municipal;6;319
+3204203;Piúma;ES;Estadual;6;0
+3204203;Piúma;ES;Municipal;6;356
+3204252;Ponto Belo;ES;Estadual;6;90
+3204252;Ponto Belo;ES;Municipal;6;19
+3204302;Presidente Kennedy;ES;Estadual;6;0
+3204302;Presidente Kennedy;ES;Municipal;6;199
+3204351;Rio Bananal;ES;Estadual;6;0
+3204351;Rio Bananal;ES;Municipal;6;319
+3204401;Rio Novo do Sul;ES;Estadual;6;162
+3204401;Rio Novo do Sul;ES;Municipal;6;0
+3204500;Santa Leopoldina;ES;Estadual;6;88
+3204500;Santa Leopoldina;ES;Municipal;6;55
+3204559;Santa Maria de Jetibá;ES;Estadual;6;395
+3204559;Santa Maria de Jetibá;ES;Municipal;6;180
+3204609;Santa Teresa;ES;Estadual;6;82
+3204609;Santa Teresa;ES;Municipal;6;230
+3204658;São Domingos do Norte;ES;Estadual;6;21
+3204658;São Domingos do Norte;ES;Municipal;6;112
+3204708;São Gabriel da Palha;ES;Estadual;6;148
+3204708;São Gabriel da Palha;ES;Municipal;6;219
+3204807;São José do Calçado;ES;Estadual;6;0
+3204807;São José do Calçado;ES;Municipal;6;136
+3204906;São Mateus;ES;Estadual;6;556
+3204906;São Mateus;ES;Municipal;6;1279
+3204955;São Roque do Canaã;ES;Estadual;6;60
+3204955;São Roque do Canaã;ES;Municipal;6;69
+3205002;Serra;ES;Estadual;6;3295
+3205002;Serra;ES;Municipal;6;4243
+3205010;Sooretama;ES;Estadual;6;0
+3205010;Sooretama;ES;Municipal;6;473
+3205036;Vargem Alta;ES;Estadual;6;97
+3205036;Vargem Alta;ES;Municipal;6;140
+3205069;Venda Nova do Imigrante;ES;Estadual;6;165
+3205069;Venda Nova do Imigrante;ES;Municipal;6;104
+3205101;Viana;ES;Estadual;6;68
+3205101;Viana;ES;Municipal;6;1103
+3205150;Vila Pavão;ES;Estadual;6;30
+3205150;Vila Pavão;ES;Municipal;6;100
+3205176;Vila Valério;ES;Estadual;6;34
+3205176;Vila Valério;ES;Municipal;6;208
+3205200;Vila Velha;ES;Estadual;6;189
+3205200;Vila Velha;ES;Municipal;6;4775
+3205309;Vitória;ES;Estadual;6;44
+3205309;Vitória;ES;Municipal;6;2985
+3200102;Afonso Cláudio;ES;Estadual;7;243
+3200102;Afonso Cláudio;ES;Municipal;7;191
+3200136;Águia Branca;ES;Estadual;7;61
+3200136;Águia Branca;ES;Municipal;7;83
+3200169;Água Doce do Norte;ES;Estadual;7;122
+3200169;Água Doce do Norte;ES;Municipal;7;58
+3200201;Alegre;ES;Estadual;7;310
+3200201;Alegre;ES;Municipal;7;0
+3200300;Alfredo Chaves;ES;Estadual;7;28
+3200300;Alfredo Chaves;ES;Municipal;7;121
+3200359;Alto Rio Novo;ES;Estadual;7;105
+3200359;Alto Rio Novo;ES;Municipal;7;17
+3200409;Anchieta;ES;Estadual;7;63
+3200409;Anchieta;ES;Municipal;7;370
+3200508;Apiacá;ES;Estadual;7;27
+3200508;Apiacá;ES;Municipal;7;53
+3200607;Aracruz;ES;Estadual;7;357
+3200607;Aracruz;ES;Municipal;7;1005
+3200706;Atílio Vivácqua;ES;Estadual;7;0
+3200706;Atílio Vivácqua;ES;Municipal;7;147
+3200805;Baixo Guandu;ES;Estadual;7;79
+3200805;Baixo Guandu;ES;Municipal;7;268
+3200904;Barra de São Francisco;ES;Estadual;7;226
+3200904;Barra de São Francisco;ES;Municipal;7;272
+3201001;Boa Esperança;ES;Estadual;7;133
+3201001;Boa Esperança;ES;Municipal;7;77
+3201100;Bom Jesus do Norte;ES;Estadual;7;14
+3201100;Bom Jesus do Norte;ES;Municipal;7;57
+3201159;Brejetuba;ES;Estadual;7;209
+3201159;Brejetuba;ES;Municipal;7;28
+3201209;Cachoeiro de Itapemirim;ES;Estadual;7;1382
+3201209;Cachoeiro de Itapemirim;ES;Municipal;7;657
+3201308;Cariacica;ES;Estadual;7;2127
+3201308;Cariacica;ES;Municipal;7;2933
+3201407;Castelo;ES;Estadual;7;35
+3201407;Castelo;ES;Municipal;7;362
+3201506;Colatina;ES;Estadual;7;181
+3201506;Colatina;ES;Municipal;7;1033
+3201605;Conceição da Barra;ES;Estadual;7;116
+3201605;Conceição da Barra;ES;Municipal;7;359
+3201704;Conceição do Castelo;ES;Estadual;7;164
+3201704;Conceição do Castelo;ES;Municipal;7;0
+3201803;Divino de São Lourenço;ES;Estadual;7;45
+3201803;Divino de São Lourenço;ES;Municipal;7;21
+3201902;Domingos Martins;ES;Estadual;7;131
+3201902;Domingos Martins;ES;Municipal;7;413
+3202009;Dores do Rio Preto;ES;Estadual;7;128
+3202009;Dores do Rio Preto;ES;Municipal;7;0
+3202108;Ecoporanga;ES;Estadual;7;255
+3202108;Ecoporanga;ES;Municipal;7;18
+3202207;Fundão;ES;Estadual;7;59
+3202207;Fundão;ES;Municipal;7;177
+3202256;Governador Lindenberg;ES;Estadual;7;128
+3202256;Governador Lindenberg;ES;Municipal;7;0
+3202306;Guaçuí;ES;Estadual;7;51
+3202306;Guaçuí;ES;Municipal;7;273
+3202405;Guarapari;ES;Estadual;7;95
+3202405;Guarapari;ES;Municipal;7;1640
+3202454;Ibatiba;ES;Estadual;7;0
+3202454;Ibatiba;ES;Municipal;7;377
+3202504;Ibiraçu;ES;Estadual;7;128
+3202504;Ibiraçu;ES;Municipal;7;5
+3202553;Ibitirama;ES;Estadual;7;129
+3202553;Ibitirama;ES;Municipal;7;45
+3202603;Iconha;ES;Estadual;7;101
+3202603;Iconha;ES;Municipal;7;39
+3202652;Irupi;ES;Estadual;7;118
+3202652;Irupi;ES;Municipal;7;64
+3202702;Itaguaçu;ES;Estadual;7;122
+3202702;Itaguaçu;ES;Municipal;7;32
+3202801;Itapemirim;ES;Estadual;7;149
+3202801;Itapemirim;ES;Municipal;7;546
+3202900;Itarana;ES;Estadual;7;117
+3202900;Itarana;ES;Municipal;7;0
+3203007;Iúna;ES;Estadual;7;292
+3203007;Iúna;ES;Municipal;7;127
+3203056;Jaguaré;ES;Estadual;7;172
+3203056;Jaguaré;ES;Municipal;7;281
+3203106;Jerônimo Monteiro;ES;Estadual;7;111
+3203106;Jerônimo Monteiro;ES;Municipal;7;66
+3203130;João Neiva;ES;Estadual;7;0
+3203130;João Neiva;ES;Municipal;7;168
+3203163;Laranja da Terra;ES;Estadual;7;96
+3203163;Laranja da Terra;ES;Municipal;7;60
+3203205;Linhares;ES;Estadual;7;681
+3203205;Linhares;ES;Municipal;7;1719
+3203304;Mantenópolis;ES;Estadual;7;151
+3203304;Mantenópolis;ES;Municipal;7;64
+3203320;Marataízes;ES;Estadual;7;42
+3203320;Marataízes;ES;Municipal;7;569
+3203346;Marechal Floriano;ES;Estadual;7;136
+3203346;Marechal Floriano;ES;Municipal;7;83
+3203353;Marilândia;ES;Estadual;7;84
+3203353;Marilândia;ES;Municipal;7;32
+3203403;Mimoso do Sul;ES;Estadual;7;237
+3203403;Mimoso do Sul;ES;Municipal;7;70
+3203502;Montanha;ES;Estadual;7;162
+3203502;Montanha;ES;Municipal;7;113
+3203601;Mucurici;ES;Estadual;7;49
+3203601;Mucurici;ES;Municipal;7;23
+3203700;Muniz Freire;ES;Estadual;7;97
+3203700;Muniz Freire;ES;Municipal;7;181
+3203809;Muqui;ES;Estadual;7;123
+3203809;Muqui;ES;Municipal;7;38
+3203908;Nova Venécia;ES;Estadual;7;38
+3203908;Nova Venécia;ES;Municipal;7;597
+3204005;Pancas;ES;Estadual;7;97
+3204005;Pancas;ES;Municipal;7;140
+3204054;Pedro Canário;ES;Estadual;7;282
+3204054;Pedro Canário;ES;Municipal;7;50
+3204104;Pinheiros;ES;Estadual;7;58
+3204104;Pinheiros;ES;Municipal;7;279
+3204203;Piúma;ES;Estadual;7;63
+3204203;Piúma;ES;Municipal;7;244
+3204252;Ponto Belo;ES;Estadual;7;102
+3204252;Ponto Belo;ES;Municipal;7;17
+3204302;Presidente Kennedy;ES;Estadual;7;0
+3204302;Presidente Kennedy;ES;Municipal;7;189
+3204351;Rio Bananal;ES;Estadual;7;0
+3204351;Rio Bananal;ES;Municipal;7;304
+3204401;Rio Novo do Sul;ES;Estadual;7;137
+3204401;Rio Novo do Sul;ES;Municipal;7;0
+3204500;Santa Leopoldina;ES;Estadual;7;58
+3204500;Santa Leopoldina;ES;Municipal;7;56
+3204559;Santa Maria de Jetibá;ES;Estadual;7;417
+3204559;Santa Maria de Jetibá;ES;Municipal;7;213
+3204609;Santa Teresa;ES;Estadual;7;62
+3204609;Santa Teresa;ES;Municipal;7;196
+3204658;São Domingos do Norte;ES;Estadual;7;38
+3204658;São Domingos do Norte;ES;Municipal;7;102
+3204708;São Gabriel da Palha;ES;Estadual;7;141
+3204708;São Gabriel da Palha;ES;Municipal;7;238
+3204807;São José do Calçado;ES;Estadual;7;0
+3204807;São José do Calçado;ES;Municipal;7;117
+3204906;São Mateus;ES;Estadual;7;557
+3204906;São Mateus;ES;Municipal;7;1077
+3204955;São Roque do Canaã;ES;Estadual;7;77
+3204955;São Roque do Canaã;ES;Municipal;7;60
+3205002;Serra;ES;Estadual;7;3585
+3205002;Serra;ES;Municipal;7;3495
+3205010;Sooretama;ES;Estadual;7;75
+3205010;Sooretama;ES;Municipal;7;391
+3205036;Vargem Alta;ES;Estadual;7;141
+3205036;Vargem Alta;ES;Municipal;7;151
+3205069;Venda Nova do Imigrante;ES;Estadual;7;204
+3205069;Venda Nova do Imigrante;ES;Municipal;7;123
+3205101;Viana;ES;Estadual;7;101
+3205101;Viana;ES;Municipal;7;953
+3205150;Vila Pavão;ES;Estadual;7;28
+3205150;Vila Pavão;ES;Municipal;7;123
+3205176;Vila Valério;ES;Estadual;7;67
+3205176;Vila Valério;ES;Municipal;7;148
+3205200;Vila Velha;ES;Estadual;7;334
+3205200;Vila Velha;ES;Municipal;7;4173
+3205309;Vitória;ES;Estadual;7;86
+3205309;Vitória;ES;Municipal;7;2855
+3200102;Afonso Cláudio;ES;Estadual;8;253
+3200102;Afonso Cláudio;ES;Municipal;8;151
+3200136;Águia Branca;ES;Estadual;8;84
+3200136;Águia Branca;ES;Municipal;8;75
+3200169;Água Doce do Norte;ES;Estadual;8;121
+3200169;Água Doce do Norte;ES;Municipal;8;70
+3200201;Alegre;ES;Estadual;8;290
+3200201;Alegre;ES;Municipal;8;0
+3200300;Alfredo Chaves;ES;Estadual;8;25
+3200300;Alfredo Chaves;ES;Municipal;8;126
+3200359;Alto Rio Novo;ES;Estadual;8;94
+3200359;Alto Rio Novo;ES;Municipal;8;10
+3200409;Anchieta;ES;Estadual;8;63
+3200409;Anchieta;ES;Municipal;8;360
+3200508;Apiacá;ES;Estadual;8;34
+3200508;Apiacá;ES;Municipal;8;62
+3200607;Aracruz;ES;Estadual;8;368
+3200607;Aracruz;ES;Municipal;8;974
+3200706;Atílio Vivácqua;ES;Estadual;8;0
+3200706;Atílio Vivácqua;ES;Municipal;8;135
+3200805;Baixo Guandu;ES;Estadual;8;88
+3200805;Baixo Guandu;ES;Municipal;8;218
+3200904;Barra de São Francisco;ES;Estadual;8;217
+3200904;Barra de São Francisco;ES;Municipal;8;245
+3201001;Boa Esperança;ES;Estadual;8;124
+3201001;Boa Esperança;ES;Municipal;8;79
+3201100;Bom Jesus do Norte;ES;Estadual;8;34
+3201100;Bom Jesus do Norte;ES;Municipal;8;49
+3201159;Brejetuba;ES;Estadual;8;192
+3201159;Brejetuba;ES;Municipal;8;29
+3201209;Cachoeiro de Itapemirim;ES;Estadual;8;1371
+3201209;Cachoeiro de Itapemirim;ES;Municipal;8;681
+3201308;Cariacica;ES;Estadual;8;2047
+3201308;Cariacica;ES;Municipal;8;2631
+3201407;Castelo;ES;Estadual;8;54
+3201407;Castelo;ES;Municipal;8;315
+3201506;Colatina;ES;Estadual;8;243
+3201506;Colatina;ES;Municipal;8;1000
+3201605;Conceição da Barra;ES;Estadual;8;129
+3201605;Conceição da Barra;ES;Municipal;8;341
+3201704;Conceição do Castelo;ES;Estadual;8;151
+3201704;Conceição do Castelo;ES;Municipal;8;0
+3201803;Divino de São Lourenço;ES;Estadual;8;48
+3201803;Divino de São Lourenço;ES;Municipal;8;20
+3201902;Domingos Martins;ES;Estadual;8;153
+3201902;Domingos Martins;ES;Municipal;8;364
+3202009;Dores do Rio Preto;ES;Estadual;8;100
+3202009;Dores do Rio Preto;ES;Municipal;8;0
+3202108;Ecoporanga;ES;Estadual;8;267
+3202108;Ecoporanga;ES;Municipal;8;21
+3202207;Fundão;ES;Estadual;8;70
+3202207;Fundão;ES;Municipal;8;176
+3202256;Governador Lindenberg;ES;Estadual;8;136
+3202256;Governador Lindenberg;ES;Municipal;8;0
+3202306;Guaçuí;ES;Estadual;8;37
+3202306;Guaçuí;ES;Municipal;8;277
+3202405;Guarapari;ES;Estadual;8;123
+3202405;Guarapari;ES;Municipal;8;1511
+3202454;Ibatiba;ES;Estadual;8;105
+3202454;Ibatiba;ES;Municipal;8;250
+3202504;Ibiraçu;ES;Estadual;8;116
+3202504;Ibiraçu;ES;Municipal;8;8
+3202553;Ibitirama;ES;Estadual;8;113
+3202553;Ibitirama;ES;Municipal;8;32
+3202603;Iconha;ES;Estadual;8;85
+3202603;Iconha;ES;Municipal;8;49
+3202652;Irupi;ES;Estadual;8;133
+3202652;Irupi;ES;Municipal;8;46
+3202702;Itaguaçu;ES;Estadual;8;110
+3202702;Itaguaçu;ES;Municipal;8;37
+3202801;Itapemirim;ES;Estadual;8;131
+3202801;Itapemirim;ES;Municipal;8;410
+3202900;Itarana;ES;Estadual;8;100
+3202900;Itarana;ES;Municipal;8;0
+3203007;Iúna;ES;Estadual;8;275
+3203007;Iúna;ES;Municipal;8;106
+3203056;Jaguaré;ES;Estadual;8;163
+3203056;Jaguaré;ES;Municipal;8;290
+3203106;Jerônimo Monteiro;ES;Estadual;8;83
+3203106;Jerônimo Monteiro;ES;Municipal;8;58
+3203130;João Neiva;ES;Estadual;8;0
+3203130;João Neiva;ES;Municipal;8;170
+3203163;Laranja da Terra;ES;Estadual;8;68
+3203163;Laranja da Terra;ES;Municipal;8;48
+3203205;Linhares;ES;Estadual;8;811
+3203205;Linhares;ES;Municipal;8;1334
+3203304;Mantenópolis;ES;Estadual;8;143
+3203304;Mantenópolis;ES;Municipal;8;42
+3203320;Marataízes;ES;Estadual;8;35
+3203320;Marataízes;ES;Municipal;8;506
+3203346;Marechal Floriano;ES;Estadual;8;194
+3203346;Marechal Floriano;ES;Municipal;8;98
+3203353;Marilândia;ES;Estadual;8;88
+3203353;Marilândia;ES;Municipal;8;40
+3203403;Mimoso do Sul;ES;Estadual;8;230
+3203403;Mimoso do Sul;ES;Municipal;8;67
+3203502;Montanha;ES;Estadual;8;147
+3203502;Montanha;ES;Municipal;8;85
+3203601;Mucurici;ES;Estadual;8;59
+3203601;Mucurici;ES;Municipal;8;19
+3203700;Muniz Freire;ES;Estadual;8;83
+3203700;Muniz Freire;ES;Municipal;8;154
+3203809;Muqui;ES;Estadual;8;124
+3203809;Muqui;ES;Municipal;8;31
+3203908;Nova Venécia;ES;Estadual;8;49
+3203908;Nova Venécia;ES;Municipal;8;543
+3204005;Pancas;ES;Estadual;8;83
+3204005;Pancas;ES;Municipal;8;122
+3204054;Pedro Canário;ES;Estadual;8;274
+3204054;Pedro Canário;ES;Municipal;8;39
+3204104;Pinheiros;ES;Estadual;8;61
+3204104;Pinheiros;ES;Municipal;8;251
+3204203;Piúma;ES;Estadual;8;86
+3204203;Piúma;ES;Municipal;8;211
+3204252;Ponto Belo;ES;Estadual;8;92
+3204252;Ponto Belo;ES;Municipal;8;16
+3204302;Presidente Kennedy;ES;Estadual;8;0
+3204302;Presidente Kennedy;ES;Municipal;8;196
+3204351;Rio Bananal;ES;Estadual;8;0
+3204351;Rio Bananal;ES;Municipal;8;261
+3204401;Rio Novo do Sul;ES;Estadual;8;126
+3204401;Rio Novo do Sul;ES;Municipal;8;0
+3204500;Santa Leopoldina;ES;Estadual;8;81
+3204500;Santa Leopoldina;ES;Municipal;8;52
+3204559;Santa Maria de Jetibá;ES;Estadual;8;346
+3204559;Santa Maria de Jetibá;ES;Municipal;8;145
+3204609;Santa Teresa;ES;Estadual;8;71
+3204609;Santa Teresa;ES;Municipal;8;223
+3204658;São Domingos do Norte;ES;Estadual;8;31
+3204658;São Domingos do Norte;ES;Municipal;8;94
+3204708;São Gabriel da Palha;ES;Estadual;8;180
+3204708;São Gabriel da Palha;ES;Municipal;8;212
+3204807;São José do Calçado;ES;Estadual;8;33
+3204807;São José do Calçado;ES;Municipal;8;92
+3204906;São Mateus;ES;Estadual;8;536
+3204906;São Mateus;ES;Municipal;8;994
+3204955;São Roque do Canaã;ES;Estadual;8;79
+3204955;São Roque do Canaã;ES;Municipal;8;40
+3205002;Serra;ES;Estadual;8;3543
+3205002;Serra;ES;Municipal;8;3256
+3205010;Sooretama;ES;Estadual;8;114
+3205010;Sooretama;ES;Municipal;8;295
+3205036;Vargem Alta;ES;Estadual;8;124
+3205036;Vargem Alta;ES;Municipal;8;136
+3205069;Venda Nova do Imigrante;ES;Estadual;8;155
+3205069;Venda Nova do Imigrante;ES;Municipal;8;116
+3205101;Viana;ES;Estadual;8;304
+3205101;Viana;ES;Municipal;8;699
+3205150;Vila Pavão;ES;Estadual;8;18
+3205150;Vila Pavão;ES;Municipal;8;97
+3205176;Vila Valério;ES;Estadual;8;37
+3205176;Vila Valério;ES;Municipal;8;162
+3205200;Vila Velha;ES;Estadual;8;660
+3205200;Vila Velha;ES;Municipal;8;3673
+3205309;Vitória;ES;Estadual;8;67
+3205309;Vitória;ES;Municipal;8;2761
+3200102;Afonso Cláudio;ES;Estadual;9;229
+3200102;Afonso Cláudio;ES;Municipal;9;158
+3200136;Águia Branca;ES;Estadual;9;72
+3200136;Águia Branca;ES;Municipal;9;56
+3200169;Água Doce do Norte;ES;Estadual;9;98
+3200169;Água Doce do Norte;ES;Municipal;9;64
+3200201;Alegre;ES;Estadual;9;313
+3200201;Alegre;ES;Municipal;9;0
+3200300;Alfredo Chaves;ES;Estadual;9;32
+3200300;Alfredo Chaves;ES;Municipal;9;121
+3200359;Alto Rio Novo;ES;Estadual;9;97
+3200359;Alto Rio Novo;ES;Municipal;9;15
+3200409;Anchieta;ES;Estadual;9;40
+3200409;Anchieta;ES;Municipal;9;296
+3200508;Apiacá;ES;Estadual;9;28
+3200508;Apiacá;ES;Municipal;9;66
+3200607;Aracruz;ES;Estadual;9;301
+3200607;Aracruz;ES;Municipal;9;993
+3200706;Atílio Vivácqua;ES;Estadual;9;0
+3200706;Atílio Vivácqua;ES;Municipal;9;162
+3200805;Baixo Guandu;ES;Estadual;9;67
+3200805;Baixo Guandu;ES;Municipal;9;260
+3200904;Barra de São Francisco;ES;Estadual;9;236
+3200904;Barra de São Francisco;ES;Municipal;9;229
+3201001;Boa Esperança;ES;Estadual;9;124
+3201001;Boa Esperança;ES;Municipal;9;72
+3201100;Bom Jesus do Norte;ES;Estadual;9;18
+3201100;Bom Jesus do Norte;ES;Municipal;9;57
+3201159;Brejetuba;ES;Estadual;9;178
+3201159;Brejetuba;ES;Municipal;9;23
+3201209;Cachoeiro de Itapemirim;ES;Estadual;9;1422
+3201209;Cachoeiro de Itapemirim;ES;Municipal;9;533
+3201308;Cariacica;ES;Estadual;9;2385
+3201308;Cariacica;ES;Municipal;9;2180
+3201407;Castelo;ES;Estadual;9;63
+3201407;Castelo;ES;Municipal;9;280
+3201506;Colatina;ES;Estadual;9;336
+3201506;Colatina;ES;Municipal;9;867
+3201605;Conceição da Barra;ES;Estadual;9;112
+3201605;Conceição da Barra;ES;Municipal;9;307
+3201704;Conceição do Castelo;ES;Estadual;9;142
+3201704;Conceição do Castelo;ES;Municipal;9;0
+3201803;Divino de São Lourenço;ES;Estadual;9;49
+3201803;Divino de São Lourenço;ES;Municipal;9;10
+3201902;Domingos Martins;ES;Estadual;9;150
+3201902;Domingos Martins;ES;Municipal;9;377
+3202009;Dores do Rio Preto;ES;Estadual;9;114
+3202009;Dores do Rio Preto;ES;Municipal;9;0
+3202108;Ecoporanga;ES;Estadual;9;310
+3202108;Ecoporanga;ES;Municipal;9;9
+3202207;Fundão;ES;Estadual;9;72
+3202207;Fundão;ES;Municipal;9;128
+3202256;Governador Lindenberg;ES;Estadual;9;148
+3202256;Governador Lindenberg;ES;Municipal;9;0
+3202306;Guaçuí;ES;Estadual;9;46
+3202306;Guaçuí;ES;Municipal;9;236
+3202405;Guarapari;ES;Estadual;9;314
+3202405;Guarapari;ES;Municipal;9;1144
+3202454;Ibatiba;ES;Estadual;9;183
+3202454;Ibatiba;ES;Municipal;9;129
+3202504;Ibiraçu;ES;Estadual;9;142
+3202504;Ibiraçu;ES;Municipal;9;4
+3202553;Ibitirama;ES;Estadual;9;134
+3202553;Ibitirama;ES;Municipal;9;36
+3202603;Iconha;ES;Estadual;9;86
+3202603;Iconha;ES;Municipal;9;54
+3202652;Irupi;ES;Estadual;9;107
+3202652;Irupi;ES;Municipal;9;34
+3202702;Itaguaçu;ES;Estadual;9;116
+3202702;Itaguaçu;ES;Municipal;9;35
+3202801;Itapemirim;ES;Estadual;9;156
+3202801;Itapemirim;ES;Municipal;9;417
+3202900;Itarana;ES;Estadual;9;100
+3202900;Itarana;ES;Municipal;9;0
+3203007;Iúna;ES;Estadual;9;262
+3203007;Iúna;ES;Municipal;9;91
+3203056;Jaguaré;ES;Estadual;9;148
+3203056;Jaguaré;ES;Municipal;9;243
+3203106;Jerônimo Monteiro;ES;Estadual;9;91
+3203106;Jerônimo Monteiro;ES;Municipal;9;71
+3203130;João Neiva;ES;Estadual;9;0
+3203130;João Neiva;ES;Municipal;9;160
+3203163;Laranja da Terra;ES;Estadual;9;55
+3203163;Laranja da Terra;ES;Municipal;9;46
+3203205;Linhares;ES;Estadual;9;819
+3203205;Linhares;ES;Municipal;9;1128
+3203304;Mantenópolis;ES;Estadual;9;114
+3203304;Mantenópolis;ES;Municipal;9;40
+3203320;Marataízes;ES;Estadual;9;56
+3203320;Marataízes;ES;Municipal;9;433
+3203346;Marechal Floriano;ES;Estadual;9;137
+3203346;Marechal Floriano;ES;Municipal;9;62
+3203353;Marilândia;ES;Estadual;9;100
+3203353;Marilândia;ES;Municipal;9;34
+3203403;Mimoso do Sul;ES;Estadual;9;222
+3203403;Mimoso do Sul;ES;Municipal;9;85
+3203502;Montanha;ES;Estadual;9;153
+3203502;Montanha;ES;Municipal;9;85
+3203601;Mucurici;ES;Estadual;9;58
+3203601;Mucurici;ES;Municipal;9;23
+3203700;Muniz Freire;ES;Estadual;9;99
+3203700;Muniz Freire;ES;Municipal;9;123
+3203809;Muqui;ES;Estadual;9;112
+3203809;Muqui;ES;Municipal;9;29
+3203908;Nova Venécia;ES;Estadual;9;44
+3203908;Nova Venécia;ES;Municipal;9;536
+3204005;Pancas;ES;Estadual;9;104
+3204005;Pancas;ES;Municipal;9;125
+3204054;Pedro Canário;ES;Estadual;9;256
+3204054;Pedro Canário;ES;Municipal;9;33
+3204104;Pinheiros;ES;Estadual;9;46
+3204104;Pinheiros;ES;Municipal;9;266
+3204203;Piúma;ES;Estadual;9;88
+3204203;Piúma;ES;Municipal;9;199
+3204252;Ponto Belo;ES;Estadual;9;84
+3204252;Ponto Belo;ES;Municipal;9;28
+3204302;Presidente Kennedy;ES;Estadual;9;0
+3204302;Presidente Kennedy;ES;Municipal;9;169
+3204351;Rio Bananal;ES;Estadual;9;0
+3204351;Rio Bananal;ES;Municipal;9;247
+3204401;Rio Novo do Sul;ES;Estadual;9;127
+3204401;Rio Novo do Sul;ES;Municipal;9;0
+3204500;Santa Leopoldina;ES;Estadual;9;57
+3204500;Santa Leopoldina;ES;Municipal;9;39
+3204559;Santa Maria de Jetibá;ES;Estadual;9;325
+3204559;Santa Maria de Jetibá;ES;Municipal;9;135
+3204609;Santa Teresa;ES;Estadual;9;76
+3204609;Santa Teresa;ES;Municipal;9;191
+3204658;São Domingos do Norte;ES;Estadual;9;33
+3204658;São Domingos do Norte;ES;Municipal;9;80
+3204708;São Gabriel da Palha;ES;Estadual;9;174
+3204708;São Gabriel da Palha;ES;Municipal;9;175
+3204807;São José do Calçado;ES;Estadual;9;64
+3204807;São José do Calçado;ES;Municipal;9;63
+3204906;São Mateus;ES;Estadual;9;522
+3204906;São Mateus;ES;Municipal;9;888
+3204955;São Roque do Canaã;ES;Estadual;9;95
+3204955;São Roque do Canaã;ES;Municipal;9;40
+3205002;Serra;ES;Estadual;9;3322
+3205002;Serra;ES;Municipal;9;2536
+3205010;Sooretama;ES;Estadual;9;85
+3205010;Sooretama;ES;Municipal;9;341
+3205036;Vargem Alta;ES;Estadual;9;98
+3205036;Vargem Alta;ES;Municipal;9;118
+3205069;Venda Nova do Imigrante;ES;Estadual;9;147
+3205069;Venda Nova do Imigrante;ES;Municipal;9;103
+3205101;Viana;ES;Estadual;9;286
+3205101;Viana;ES;Municipal;9;635
+3205150;Vila Pavão;ES;Estadual;9;29
+3205150;Vila Pavão;ES;Municipal;9;101
+3205176;Vila Valério;ES;Estadual;9;67
+3205176;Vila Valério;ES;Municipal;9;137
+3205200;Vila Velha;ES;Estadual;9;773
+3205200;Vila Velha;ES;Municipal;9;3353
+3205309;Vitória;ES;Estadual;9;440
+3205309;Vitória;ES;Municipal;9;2187
