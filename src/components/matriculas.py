@@ -117,7 +117,7 @@ def render_matriculas_analysis(data_loader: DataLoader, rede_selecionada):
                 title="Distribuição por Série",
                 template="plotly_white",
                 color="QT_MATRICULAS",
-                color_continuous_scale="Blues",
+                color_continuous_scale=["#1e3a8a", "#3b82f6", "#60a5fa", "#93c5fd"],
             )
             fig.update_layout(height=400, showlegend=False)
             st.plotly_chart(fig, use_container_width=True)

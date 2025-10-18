@@ -92,7 +92,7 @@ def render_overview(data_loader: DataLoader, rede_selecionada):
                 title=f"IDEB 2023 - {rede_selecionada}",
                 template="plotly_white",
                 color="VL_OBSERVADO_2023",
-                color_continuous_scale="Blues",
+                color_continuous_scale=["#1e3a8a", "#3b82f6", "#60a5fa", "#93c5fd"],
             )
             fig.update_layout(
                 height=400,
@@ -117,7 +117,7 @@ def render_overview(data_loader: DataLoader, rede_selecionada):
                 title=f"Matrículas por Série - {rede_selecionada}",
                 template="plotly_white",
                 color=matriculas_serie.values,
-                color_continuous_scale="Blues",
+                color_continuous_scale=["#1e3a8a", "#3b82f6", "#60a5fa", "#93c5fd"],
             )
             fig.update_layout(
                 height=400,
