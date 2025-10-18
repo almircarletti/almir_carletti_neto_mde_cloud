@@ -21,24 +21,6 @@ def render_homepage(data_loader, rede_selecionada):
         rede_selecionada: Rede de ensino selecionada para filtrar os dados
     """
 
-    # Título principal
-    st.markdown(
-        """
-    <div style="text-align: center; margin-bottom: 3rem;">
-        <h1 style="color: #1f77b4; margin-bottom: 1rem;">
-            📊 Dashboard de Indicadores Educacionais
-        </h1>
-        <h2 style="color: #666; font-weight: 300;">
-            Espírito Santo - Análise Interativa com Streamlit
-        </h2>
-        <p style="color: #888; font-size: 1.1rem; margin-top: 1rem;">
-            Transformando dados educacionais em insights acessíveis
-        </p>
-    </div>
-    """,
-        unsafe_allow_html=True,
-    )
-
     # Seção Contexto
     st.markdown("---")
     st.markdown("## 🎯 Contexto")
