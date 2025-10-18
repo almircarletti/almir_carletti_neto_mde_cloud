@@ -1,0 +1,151 @@
+SG_UF;CO_MUNICIPIO;NO_MUNICIPIO;REDE;VL_OBSERVADO_2023;VL_PROJECAO_2021;acima_meta
+ES;3200102;Afonso Cláudio;Estadual;5.8;5.5;True
+ES;3200102;Afonso Cláudio;Municipal;5.4;6.3;False
+ES;3200136;Águia Branca;Estadual;5.8;6.0;False
+ES;3200136;Águia Branca;Municipal;;5.5;False
+ES;3200169;Água Doce do Norte;Estadual;5.3;5.2;True
+ES;3200169;Água Doce do Norte;Municipal;4.9;4.8;True
+ES;3200201;Alegre;Estadual;5.7;5.8;False
+ES;3200300;Alfredo Chaves;Estadual;6.4;6.8;False
+ES;3200300;Alfredo Chaves;Municipal;6.0;6.2;False
+ES;3200359;Alto Rio Novo;Estadual;5.4;5.7;False
+ES;3200359;Alto Rio Novo;Municipal;4.9;5.6;False
+ES;3200409;Anchieta;Estadual;5.8;4.6;True
+ES;3200409;Anchieta;Municipal;5.3;5.1;True
+ES;3200508;Apiacá;Estadual;5.7;5.5;True
+ES;3200508;Apiacá;Municipal;3.7;5.3;False
+ES;3200607;Aracruz;Estadual;4.8;5.7;False
+ES;3200607;Aracruz;Municipal;5.2;5.8;False
+ES;3200706;Atílio Vivácqua;Estadual;;5.8;False
+ES;3200706;Atílio Vivácqua;Municipal;4.2;5.5;False
+ES;3200805;Baixo Guandu;Estadual;5.7;5.8;False
+ES;3200805;Baixo Guandu;Municipal;4.5;5.6;False
+ES;3200904;Barra de São Francisco;Estadual;5.2;5.6;False
+ES;3200904;Barra de São Francisco;Municipal;5.3;5.3;True
+ES;3201001;Boa Esperança;Estadual;5.5;4.8;True
+ES;3201001;Boa Esperança;Municipal;4.9;5.7;False
+ES;3201100;Bom Jesus do Norte;Estadual;5.3;5.1;True
+ES;3201100;Bom Jesus do Norte;Municipal;4.3;5.1;False
+ES;3201159;Brejetuba;Estadual;5.7;6.1;False
+ES;3201159;Brejetuba;Municipal;;;False
+ES;3201209;Cachoeiro de Itapemirim;Estadual;5.3;5.4;False
+ES;3201209;Cachoeiro de Itapemirim;Municipal;4.6;6.0;False
+ES;3201308;Cariacica;Estadual;4.9;5.2;False
+ES;3201308;Cariacica;Municipal;4.4;5.4;False
+ES;3201407;Castelo;Estadual;5.7;6.6;False
+ES;3201407;Castelo;Municipal;5.1;6.2;False
+ES;3201506;Colatina;Estadual;5.5;6.0;False
+ES;3201506;Colatina;Municipal;5.0;6.3;False
+ES;3201605;Conceição da Barra;Estadual;5.2;5.6;False
+ES;3201605;Conceição da Barra;Municipal;4.8;5.9;False
+ES;3201704;Conceição do Castelo;Estadual;5.4;6.0;False
+ES;3201704;Conceição do Castelo;Municipal;;6.1;False
+ES;3201803;Divino de São Lourenço;Estadual;6.0;5.5;True
+ES;3201803;Divino de São Lourenço;Municipal;;5.0;False
+ES;3201902;Domingos Martins;Estadual;6.1;5.9;True
+ES;3201902;Domingos Martins;Municipal;5.6;6.5;False
+ES;3202009;Dores do Rio Preto;Estadual;5.7;5.1;True
+ES;3202009;Dores do Rio Preto;Municipal;;5.4;False
+ES;3202108;Ecoporanga;Estadual;5.2;5.3;False
+ES;3202108;Ecoporanga;Municipal;;5.6;False
+ES;3202207;Fundão;Estadual;5.2;4.7;True
+ES;3202207;Fundão;Municipal;4.2;5.7;False
+ES;3202256;Governador Lindenberg;Estadual;5.5;6.3;False
+ES;3202306;Guaçuí;Estadual;5.6;5.1;True
+ES;3202306;Guaçuí;Municipal;5.1;5.4;False
+ES;3202405;Guarapari;Estadual;5.5;5.7;False
+ES;3202405;Guarapari;Municipal;4.9;5.2;False
+ES;3202454;Ibatiba;Estadual;6.1;5.7;True
+ES;3202454;Ibatiba;Municipal;4.9;5.6;False
+ES;3202504;Ibiraçu;Estadual;5.0;5.6;False
+ES;3202504;Ibiraçu;Municipal;;;False
+ES;3202553;Ibitirama;Estadual;5.8;5.4;True
+ES;3202553;Ibitirama;Municipal;;5.4;False
+ES;3202603;Iconha;Estadual;6.1;6.2;False
+ES;3202603;Iconha;Municipal;5.3;6.0;False
+ES;3202652;Irupi;Estadual;5.6;5.1;True
+ES;3202652;Irupi;Municipal;5.2;5.4;False
+ES;3202702;Itaguaçu;Estadual;5.7;6.2;False
+ES;3202702;Itaguaçu;Municipal;6.1;5.9;True
+ES;3202801;Itapemirim;Estadual;5.3;5.2;True
+ES;3202801;Itapemirim;Municipal;4.8;4.5;True
+ES;3202900;Itarana;Estadual;5.2;5.9;False
+ES;3202900;Itarana;Municipal;;6.4;False
+ES;3203007;Iúna;Estadual;5.8;5.2;True
+ES;3203007;Iúna;Municipal;5.0;5.1;False
+ES;3203056;Jaguaré;Estadual;5.6;5.6;True
+ES;3203056;Jaguaré;Municipal;4.8;5.5;False
+ES;3203106;Jerônimo Monteiro;Estadual;5.2;5.9;False
+ES;3203106;Jerônimo Monteiro;Municipal;5.8;6.0;False
+ES;3203130;João Neiva;Municipal;5.3;5.5;False
+ES;3203163;Laranja da Terra;Estadual;6.7;5.7;True
+ES;3203163;Laranja da Terra;Municipal;5.5;6.0;False
+ES;3203205;Linhares;Estadual;5.0;5.4;False
+ES;3203205;Linhares;Municipal;5.1;5.9;False
+ES;3203304;Mantenópolis;Estadual;5.5;5.6;False
+ES;3203304;Mantenópolis;Municipal;5.9;5.3;True
+ES;3203320;Marataízes;Estadual;4.6;5.3;False
+ES;3203320;Marataízes;Municipal;5.1;5.8;False
+ES;3203346;Marechal Floriano;Estadual;6.3;5.9;True
+ES;3203346;Marechal Floriano;Municipal;5.9;6.8;False
+ES;3203353;Marilândia;Estadual;5.3;6.3;False
+ES;3203353;Marilândia;Municipal;;;False
+ES;3203403;Mimoso do Sul;Estadual;5.2;5.7;False
+ES;3203403;Mimoso do Sul;Municipal;;4.9;False
+ES;3203502;Montanha;Estadual;4.7;5.3;False
+ES;3203502;Montanha;Municipal;4.6;6.0;False
+ES;3203601;Mucurici;Estadual;5.4;5.2;True
+ES;3203601;Mucurici;Municipal;4.3;4.6;False
+ES;3203700;Muniz Freire;Estadual;6.3;5.3;True
+ES;3203700;Muniz Freire;Municipal;6.1;6.2;False
+ES;3203809;Muqui;Estadual;5.1;4.9;True
+ES;3203809;Muqui;Municipal;5.4;6.1;False
+ES;3203908;Nova Venécia;Estadual;5.6;5.5;True
+ES;3203908;Nova Venécia;Municipal;5.9;6.1;False
+ES;3204005;Pancas;Estadual;5.4;5.9;False
+ES;3204005;Pancas;Municipal;4.7;5.4;False
+ES;3204054;Pedro Canário;Estadual;5.3;5.3;True
+ES;3204054;Pedro Canário;Municipal;4.6;4.6;True
+ES;3204104;Pinheiros;Estadual;5.9;5.6;True
+ES;3204104;Pinheiros;Municipal;4.9;5.5;False
+ES;3204203;Piúma;Estadual;5.5;6.3;False
+ES;3204203;Piúma;Municipal;4.9;5.4;False
+ES;3204252;Ponto Belo;Estadual;4.9;5.7;False
+ES;3204252;Ponto Belo;Municipal;5.0;5.0;True
+ES;3204302;Presidente Kennedy;Estadual;;5.0;False
+ES;3204302;Presidente Kennedy;Municipal;4.8;4.8;True
+ES;3204351;Rio Bananal;Estadual;;6.6;False
+ES;3204351;Rio Bananal;Municipal;4.8;5.7;False
+ES;3204401;Rio Novo do Sul;Estadual;5.2;6.0;False
+ES;3204500;Santa Leopoldina;Estadual;5.1;5.3;False
+ES;3204559;Santa Maria de Jetibá;Estadual;6.0;5.7;True
+ES;3204559;Santa Maria de Jetibá;Municipal;5.2;3.9;True
+ES;3204609;Santa Teresa;Estadual;6.2;5.4;True
+ES;3204609;Santa Teresa;Municipal;6.0;6.0;True
+ES;3204658;São Domingos do Norte;Estadual;5.1;5.9;False
+ES;3204658;São Domingos do Norte;Municipal;5.1;5.4;False
+ES;3204708;São Gabriel da Palha;Estadual;5.8;6.2;False
+ES;3204708;São Gabriel da Palha;Municipal;4.7;5.7;False
+ES;3204807;São José do Calçado;Estadual;5.0;6.0;False
+ES;3204807;São José do Calçado;Municipal;5.2;5.4;False
+ES;3204906;São Mateus;Estadual;5.5;5.6;False
+ES;3204906;São Mateus;Municipal;3.9;5.9;False
+ES;3204955;São Roque do Canaã;Estadual;5.1;6.0;False
+ES;3204955;São Roque do Canaã;Municipal;5.7;6.3;False
+ES;3205002;Serra;Estadual;5.1;5.2;False
+ES;3205002;Serra;Municipal;4.5;5.7;False
+ES;3205010;Sooretama;Estadual;;5.7;False
+ES;3205010;Sooretama;Municipal;4.6;5.0;False
+ES;3205036;Vargem Alta;Estadual;5.8;5.0;True
+ES;3205036;Vargem Alta;Municipal;4.9;5.7;False
+ES;3205069;Venda Nova do Imigrante;Estadual;6.0;6.1;False
+ES;3205069;Venda Nova do Imigrante;Municipal;5.8;5.7;True
+ES;3205101;Viana;Estadual;4.9;4.4;True
+ES;3205101;Viana;Municipal;4.9;5.2;False
+ES;3205150;Vila Pavão;Municipal;5.6;6.3;False
+ES;3205176;Vila Valério;Estadual;5.8;6.1;False
+ES;3205176;Vila Valério;Municipal;5.0;6.1;False
+ES;3205200;Vila Velha;Estadual;5.1;5.3;False
+ES;3205200;Vila Velha;Municipal;5.2;5.6;False
+ES;3205309;Vitória;Estadual;4.4;4.8;False
+ES;3205309;Vitória;Municipal;5.0;5.5;False

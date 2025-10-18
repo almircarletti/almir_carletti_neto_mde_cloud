@@ -1,0 +1,66 @@
+# ide files
+# IDEs e configurações de ambiente
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ambientes virtuais Python
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.env.*
+
+# Arquivos temporários e caches
+**/__pycache__/**
+**/ipynb_checkpoints/**
+.DS_Store
+Thumbs.db
+.cache/
+*.bak
+*.swp
+*.tmp
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Dados brutos e processados
+*.pdf
+*.ods
+*.xlsx
+*.xls
+
+# Arquivos PDF e apresentações
+*.pdf
+*.pptx
+*.odp
+
+# Configurações do Streamlit
+.streamlit/secrets.toml
+
+# Arquivos de testes e relatórios
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+test-results/
+junit-*.xml
+
+# Logs
+logs/
+*.log
+
+# Outros arquivos sensíveis ou específicos do projeto
+secrets/
+credentials/
+*.key
+*.pem
+*.crt
