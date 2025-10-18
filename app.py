@@ -80,6 +80,15 @@ def main():
     # Sidebar para navegação
     st.sidebar.markdown("### 🎓 ES Educação")
 
+    # Filtro de rede no topo da sidebar
+    st.sidebar.markdown("### 🔍 Filtros")
+    redes_disponiveis = stats["redes_analisadas"]  # Apenas Estadual e Municipal
+    rede_selecionada = st.sidebar.selectbox(
+        "Rede de Ensino:",
+        redes_disponiveis,
+        help="Selecione a rede de ensino para filtrar os dados",
+    )
+
     st.sidebar.markdown("### 📋 Navegação")
 
     # Menu de navegação
@@ -98,15 +107,25 @@ def main():
         help="Navegue pelas diferentes análises disponíveis",
     )
 
-    # Informações do sidebar
+    # Informações do sidebar (filtradas por rede)
     st.sidebar.markdown("### 📊 Resumo dos Dados")
-    st.sidebar.metric("Municípios", stats["total_municipios"])
+
+    # Filtrar dados por rede selecionada
+    ideb_filtrado = data_loader.load_ideb_data()[
+        data_loader.load_ideb_data()["REDE"] == rede_selecionada
+    ]
+    microdados_filtrado = data_loader.load_microdados()[
+        data_loader.load_microdados()["REDE"] == rede_selecionada
+    ]
+    municipios_filtrados = len(ideb_filtrado["CO_MUNICIPIO"].unique())
+    matriculas_filtradas = microdados_filtrado["QT_MATRICULAS"].sum()
+    ideb_medio_filtrado = ideb_filtrado["VL_OBSERVADO_2023"].mean()
+
+    st.sidebar.metric("Municípios", municipios_filtrados)
     st.sidebar.metric(
-        "Total Matrículas", f"{stats['total_matriculas']:,.0f}".replace(",", ".")
+        "Total Matrículas", f"{matriculas_filtradas:,.0f}".replace(",", ".")
     )
-    st.sidebar.metric(
-        "IDEB Médio", f"{data_loader.load_ideb_data()['VL_OBSERVADO_2023'].mean():.2f}"
-    )
+    st.sidebar.metric("IDEB Médio", f"{ideb_medio_filtrado:.2f}")
 
     st.sidebar.markdown("### 🎓 Sobre o Dashboard")
     st.sidebar.info(
@@ -124,19 +143,19 @@ def main():
 
     # Renderiza a seção selecionada
     if opcao_selecionada == "🏠 Página Inicial":
-        render_homepage(data_loader)
+        render_homepage(data_loader, rede_selecionada)
 
     elif opcao_selecionada == "📊 Visão Geral":
-        render_overview(data_loader)
+        render_overview(data_loader, rede_selecionada)
 
     elif opcao_selecionada == "🎯 Análise IDEB":
-        render_ideb_analysis(data_loader)
+        render_ideb_analysis(data_loader, rede_selecionada)
 
     elif opcao_selecionada == "👥 Análise de Matrículas":
-        render_matriculas_analysis(data_loader)
+        render_matriculas_analysis(data_loader, rede_selecionada)
 
     elif opcao_selecionada == "📈 Rendimento Escolar":
-        render_rendimento_analysis(data_loader)
+        render_rendimento_analysis(data_loader, rede_selecionada)
 
     elif opcao_selecionada == "🚀 Planos de Expansão":
         show_expansion_plans()

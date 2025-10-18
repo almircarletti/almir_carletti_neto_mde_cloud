@@ -12,12 +12,13 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
-def render_homepage(data_loader):
+def render_homepage(data_loader, rede_selecionada):
     """
     Renderiza a página inicial do dashboard com informações sobre o projeto.
 
     Args:
         data_loader: Instância do DataLoader para acessar os dados
+        rede_selecionada: Rede de ensino selecionada para filtrar os dados
     """
 
     # Título principal

@@ -9,7 +9,7 @@ import pandas as pd
 from src.data.data_loader import DataLoader
 
 
-def render_rendimento_analysis(data_loader: DataLoader):
+def render_rendimento_analysis(data_loader: DataLoader, rede_selecionada):
     """Renderiza a seção de análise de rendimento escolar."""
     st.markdown(
         '<div class="section-header">📈 Análise de Rendimento Escolar</div>',

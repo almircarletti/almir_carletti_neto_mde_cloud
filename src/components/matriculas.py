@@ -8,7 +8,7 @@ import pandas as pd
 from src.data.data_loader import DataLoader
 
 
-def render_matriculas_analysis(data_loader: DataLoader):
+def render_matriculas_analysis(data_loader: DataLoader, rede_selecionada):
     """Renderiza a seção de análise de matrículas."""
     st.markdown(
         '<div class="section-header">👥 Análise de Matrículas Escolares</div>',

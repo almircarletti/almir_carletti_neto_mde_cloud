@@ -82,6 +82,54 @@ def apply_custom_css():
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         margin: 0.5rem 0;
     }
+    
+    /* Tornar sidebar fixa e não retrátil */
+    .css-1d391kg {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        height: 100vh !important;
+        width: 21rem !important;
+        z-index: 999 !important;
+        overflow-y: auto !important;
+    }
+    
+    /* Esconder botão de retrair sidebar */
+    .css-1rs6os {
+        display: none !important;
+    }
+    
+    .css-17eq0hr {
+        display: none !important;
+    }
+    
+    /* Ajustar conteúdo principal para não sobrepor a sidebar */
+    .main .block-container {
+        padding-left: 22rem !important;
+        padding-top: 1rem !important;
+    }
+    
+    /* Garantir que a sidebar não seja retrátil */
+    .css-1d391kg[data-testid="stSidebar"] {
+        transform: translateX(0) !important;
+        transition: none !important;
+    }
+    
+    /* Responsivo para dispositivos móveis */
+    @media (max-width: 768px) {
+        .main .block-container {
+            padding-left: 1rem !important;
+        }
+        
+        .css-1d391kg {
+            width: 18rem !important;
+        }
+    }
+    
+    /* Garantir que elementos da sidebar sejam visíveis */
+    .css-1d391kg .css-1v0mbdj {
+        padding: 1rem !important;
+    }
     </style>
     """,
         unsafe_allow_html=True,

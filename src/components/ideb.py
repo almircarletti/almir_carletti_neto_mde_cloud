@@ -9,7 +9,7 @@ import pandas as pd
 from src.data.data_loader import DataLoader
 
 
-def render_ideb_analysis(data_loader: DataLoader):
+def render_ideb_analysis(data_loader: DataLoader, rede_selecionada):
     """Renderiza a seção de análise do IDEB."""
     st.markdown(
         '<div class="section-header">🎯 Análise do IDEB - Índice de Desenvolvimento da Educação Básica</div>',
@@ -19,17 +19,14 @@ def render_ideb_analysis(data_loader: DataLoader):
     # Carrega dados do IDEB
     ideb_df = data_loader.load_ideb_data()
 
-    # Filtros
+    # Aplica filtro de rede da sidebar
+    ideb_df = ideb_df[ideb_df["REDE"] == rede_selecionada]
+    st.info(f"📊 **Análise filtrada para:** {rede_selecionada}")
+
+    # Filtros adicionais
     col1, col2 = st.columns(2)
 
     with col1:
-        rede_filter = st.selectbox(
-            "Selecione a Rede:",
-            ["Todas"] + list(ideb_df["REDE"].unique()),
-            help="Filtrar análise por rede de ensino",
-        )
-
-    with col2:
         municipios = data_loader.get_municipios_list()
         municipio_filter = st.selectbox(
             "Selecione o Município:",
@@ -37,12 +34,14 @@ def render_ideb_analysis(data_loader: DataLoader):
             help="Filtrar análise por município específico",
         )
 
-    # Aplica filtros
-    filtered_df = ideb_df.copy()
-    if rede_filter != "Todas":
-        filtered_df = filtered_df[filtered_df["REDE"] == rede_filter]
+    with col2:
+        # Mostrar informações sobre o filtro atual
+        st.info(f"**Rede:** {rede_selecionada}")
 
+    # Aplica filtro de município
+    filtered_df = ideb_df.copy()
     if municipio_filter != "Todos":
+        # Buscar código do município
         cities_df = data_loader.load_cities()
         municipio_code = cities_df[cities_df["municipio"] == municipio_filter][
             "ibge_code"
@@ -136,10 +135,10 @@ def render_ideb_analysis(data_loader: DataLoader):
                 go.Scatter(
                     x=[min_val, max_val],
                     y=[min_val, max_val],
-                    mode='lines',
+                    mode="lines",
                     line=dict(dash="dash", color="gray"),
                     name="Meta = Observado",
-                    showlegend=True
+                    showlegend=True,
                 )
             )
 
@@ -229,6 +228,5 @@ def render_ideb_analysis(data_loader: DataLoader):
         **Interpretação:**
         - **Escala**: 0 a 10 pontos
         - **Meta**: Definida para cada município/escola
-        - **Objetivo**: Atingir média 6,0 até 2022 (padrão OCDE)
         """
         )
